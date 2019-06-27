@@ -1,8 +1,6 @@
 (defproject cloj-md "1.0"
   :description "Markdown in clojure"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/hariharanv01/cloj-md"
   :license {:name "MIT"}
   :dependencies [[org.clojure/clojure "1.8.0"]]
-  :main ^:skip-aot cloj-md.core
-  :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :target-path "target/%s")
